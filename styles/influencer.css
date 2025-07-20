@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
  }
-
+ 
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -80,6 +80,18 @@
     height: 414px;
     padding: auto;
 }
+.img-2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+  width: 120px;
+  height: 100px;
+  margin-left: 200px;
+  margin-top:  80px ;
+  margin-bottom: 100px;
+  padding: 10px;
+}
 
 
 @media screen and (max-width:576px) {
@@ -95,11 +107,24 @@
   flex-direction: column;
   display: block;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 .img-1>img{
   width: 400px;
   height: 300px;
   gap: 20px;
+}
+.img-2{
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+
+}
+.btn{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
   
 }
