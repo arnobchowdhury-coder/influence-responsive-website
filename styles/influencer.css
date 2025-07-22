@@ -16,6 +16,12 @@
  .dark-01{
   color: #18191F;
  }
+ .dark-02{
+  color:#6C6C6C;
+ } 
+ .dark-03{
+  color: #0A0826;
+ }
  
 .poppins-medium {
   font-family: "Poppins", sans-serif;
@@ -124,6 +130,23 @@
   box-shadow: 10px white;
   color: #787885;
   padding: 10px;
+  margin-bottom: 50px;
+}
+.gear{
+  width: 100%;
+  height: 100%;
+}
+.once{
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 50px;
 }
 
 
@@ -192,7 +215,15 @@
   gap: 40px;
   box-shadow: white 10px;
   border-radius: 10px;
+  margin-bottom: 40px;
 }
   
+.feature{
+  flex-direction: column-reverse;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+
 }
 
