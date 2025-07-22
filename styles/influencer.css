@@ -22,6 +22,9 @@
  .dark-03{
   color: #0A0826;
  }
+ .dark-04{
+  color: #D9DBE1;
+ }
  
 .poppins-medium {
   font-family: "Poppins", sans-serif;
@@ -148,7 +151,28 @@
   gap: 70px;
   margin-bottom: 50px;
 }
+.footer{
+  background:  hsl(257, 78%, 11%);
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 50px;
+  color: #FFFFFF;
+}
+.info{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.copy{
+  font-size: 14px;
+  font-weight: 700;
+}
 
+.brand{
+  color: gray;
+  margin-top: 10px;
+}
 
 @media screen and (max-width:576px) {
   .header{
@@ -222,6 +246,28 @@
   flex-direction: column-reverse;
   text-align: center;
   overflow-x: hidden;
+}
+.footer{
+  background:  hsl(257, 78%, 11%);
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 50px;
+  color: #FFFFFF;
+}
+.info{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.copy{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.brand{
+  color: gray;
+  margin-top: 10px;
 }
 
 
