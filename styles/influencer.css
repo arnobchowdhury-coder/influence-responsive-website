@@ -38,8 +38,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
-  margin: 60px;
+  margin-top: 10px;
+  margin: 70px 0;
 }
 .partha{
   font-size: 24px;
@@ -48,11 +48,12 @@
 }
 .nav li{
   list-style: none;
- }
+}
 .nav a{
   text-decoration: none;
   color: rgb(58, 58, 58);
   padding-right: 24px;
+  
 }
 .nav i{
   padding-right: 24px;
@@ -92,19 +93,25 @@
   margin-bottom: 100px;
   padding: 10px;
 }
+.menu{
+  display: none;
+  text-align: center;
+}
+
 
 
 @media screen and (max-width:576px) {
   .header{
     flex-direction: column;
     margin: auto;
+    display: none;
 }
 .nav{
   flex-direction: column;
+  display: none;
 }
-
 .para{
-  flex-direction: column;
+  flex-direction: column-reverse;
   display: block;
   overflow: hidden;
   justify-content: center;
@@ -119,12 +126,21 @@
   flex-direction: column;
   margin: auto;
   align-items: center;
-
 }
 .btn{
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+.menu{
+  display: block;
+  overflow: hidden;
+  max-width: 425px;
+  margin-top: 10px;
+}
+.partha{
+  font-size: 30px;
+  overflow-y: hidden;
 }
   
 }
